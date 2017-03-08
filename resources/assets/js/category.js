@@ -24,3 +24,13 @@ $(document).ready(function() {
         })
     });
 });
+
+function search(key) {
+    $(document).ready(function() {
+       var tableRow = $("#categoryTable tbody tr td").filter(function() {
+        console.log($("#categoryTable tbody tr td").text());
+    return $("#categoryTable tbody tr td").text() === "qfwef";
+}).closest("tr");
+        console.log(tableRow.text());
+    });
+}

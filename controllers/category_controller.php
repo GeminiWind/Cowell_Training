@@ -109,5 +109,4 @@ class CategoryController implements BaseController
         $totalPage  = Category::pagnitationCount($limit);
         require_once 'views/admin/category/pagnitate.php';
     }
-
 }

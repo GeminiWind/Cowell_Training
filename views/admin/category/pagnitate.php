@@ -3,7 +3,8 @@
 <div class="add-new" style="padding-bottom: 50px">
     <a href="?controller=category&action=create"><button class="btn btn-sm btn-primary"><i class="fa fa-plus"></i>New Category</button></a>
 </div>
-            <table class="table table-striped">
+<input type="text" name="search-key" onkeyup="search(this.value)">
+            <table class="table table-striped" id="categoryTable">
               <thead>
                 <tr>
                   <th>Name</th>
